@@ -13,3 +13,44 @@
     </main>
 </body>
 </html>
+Container(
+                width: MediaQuery.of(context).size.width * 0.8,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: <Widget>[
+                    Flexible(
+                        child: Padding(
+                            padding: EdgeInsets.all(16.0),
+                            child: Column(
+                              children: <Widget>[
+                                SizedBox(height: 12.0),
+                                Row(
+                                  children: <Widget>[
+                                    //SizedBox(width: 48.0),
+                                    Text("* vous avez plus de 18 ans"),
+                                  ],
+                                ),
+                                SizedBox(height: 12.0),
+                                Row(
+                                  children: <Widget>[
+                                    // SizedBox(
+                                    //     width:
+                                    //         MediaQuery.of(context).size.width *
+                                    //             0.8),
+                                    Text(
+                                        "* vous savez ce qu'est l'application cali"),
+                                  ],
+                                ),
+                                SizedBox(height: 12.0),
+                                Row(
+                                  children: <Widget>[
+                                    //SizedBox(width: 48.0),
+                                    Text(
+                                        "* Vous acceptez les termes d'utilisation."),
+                                  ],
+                                ),
+                              ],
+                            )))
+                  ],
+                ),
+              ),
